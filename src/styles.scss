@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.productWrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .productImg {
+        max-height: 16em;
+    }
+}
