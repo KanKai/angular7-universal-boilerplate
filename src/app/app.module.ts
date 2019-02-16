@@ -13,7 +13,7 @@ import { ProductComponent } from './product/product.component';
     ProductComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'angular7-universal-boilerplate-app' }),
     AppRoutingModule
   ],
   providers: [],
