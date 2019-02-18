@@ -13,7 +13,7 @@
 @include mat-core();
 // import our custom theme
 @import 'theme.scss';
-@import 'custom-palettes.scss';
+@import 'custom-platterns.scss';
 
 // adjust svg icons
 @import 'material-design-icons.scss';
@@ -29,7 +29,7 @@
 
 // import spinner
 @import 'spinner.scss';
-
+å
 // specify theme class eg: <body class="my-theme"> ... </body>
 .my-theme {
     // use our theme with angular-material-theme mixin
@@ -37,7 +37,7 @@
 
     // @include custom-components-theme($my-theme);
 
-    // @include custom-snackbar-theme($my-theme-warning, $my-theme-success);
+    @include custom-snackbar-theme($my-theme-warning, $my-theme-success);
 
     @include custom-colors($my-theme);
 

@@ -68,6 +68,12 @@
           "configurations": {
             "production": {
               "browserTarget": "angular7-universal-boilerplate-app:build:production"
+            },
+            "staging": {
+              "browserTarget": "angular7-universal-boilerplate-app:build:staging"
+            },
+            "dev": {
+              "browserTarget": "angular7-universal-boilerplate-app:build:dev"
             }
           }
         },
