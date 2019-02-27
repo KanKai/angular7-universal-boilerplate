@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles/app-loading.scss",
               "src/styles/styles.scss",
               "src/styles.scss"
